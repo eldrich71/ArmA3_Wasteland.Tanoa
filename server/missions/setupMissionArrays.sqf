@@ -25,9 +25,22 @@ SideMissions =
 	["mission_HostileHelicopter", 0.5],
 	["mission_MiniConvoy", 1],
 	["mission_SunkenSupplies", 1],
-	["mission_TownInvasion", 2],
+	//["mission_TownInvasion", 2],
 	["mission_Outpost", 3],
 	["mission_Truck", 1]
+];
+
+TownMissions =
+[
+	// Mission filename, weight
+	["mission_TownInvasion", 1],
+	["mission_TownInvasion2", 1],
+	["mission_TownInvasion3", 1],
+	["mission_TownInvasion4", 1],
+	//["mission_Riot", 1],
+	["mission_SuicideSquad", 1]
+	
+	
 ];
 
 MoneyMissions =
@@ -59,3 +72,4 @@ MoneyMissions = [MoneyMissions, [["A3W_underWaterMissions", ["mission_SunkenTrea
 { _x set [2, false] } forEach MainMissions;
 { _x set [2, false] } forEach SideMissions;
 { _x set [2, false] } forEach MoneyMissions;
+{ _x set [2, false] } forEach TownMissions;

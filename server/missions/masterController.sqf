@@ -8,6 +8,7 @@ _ctrlTypes =
 [
 	"mainMission",
 	"moneyMission",
+	"townMission",
 	"sideMission"
 ];
 

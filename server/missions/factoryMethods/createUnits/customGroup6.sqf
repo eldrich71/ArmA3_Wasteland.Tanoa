@@ -1,7 +1,7 @@
 // ******************************************************************************************
 // * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
 // ******************************************************************************************
-//	@file Name: customGroup.sqf
+//	@file Name: customGroup6.sqf
 //	@file Author: AgentRev
 
 if (!isServer) exitWith {};
@@ -37,7 +37,7 @@ for "_i" from 1 to _nbUnits do
 	removeHeadgear _unit;
 	removeGoggles _unit;
 
-	_unit addVest "V_PlateCarrier1_rgr";
+	_unit addVest "V_BandollierB_rgr";
 	_unit addMagazine "30Rnd_556x45_Stanag";
 	_unit addMagazine "30Rnd_556x45_Stanag";
 	_unit addMagazine "30Rnd_556x45_Stanag";
@@ -47,7 +47,7 @@ for "_i" from 1 to _nbUnits do
 		// Grenadier every 3 units
 		case (_i % 3 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_vest";
+			_unit addUniform "U_C_Man_casual_4_F";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 			_unit addWeapon "arifle_TRG21_GL_F";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
@@ -56,23 +56,23 @@ for "_i" from 1 to _nbUnits do
 		// RPG every 7 units, starting from second one
 		case ((_i + 5) % 7 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_tshirt";
+			_unit addUniform "U_C_Man_casual_5_F";
 			_unit addBackpack "B_Kitbag_mcamo";
 			_unit addWeapon "arifle_TRG20_F";
-			_unit addMagazine "Titan_AT";
-			_unit addWeapon "launch_I_Titan_short_F";
-			_unit addMagazine "Titan_AT";
-			_unit addMagazine "Titan_AT";
+			_unit addMagazine "RPG32_HE_F";
+			_unit addWeapon "launch_RPG32_ghex_F";
+			_unit addMagazine "RPG32_HE_F";
+			_unit addMagazine "RPG32_HE_F";
 		};
 		// Rifleman
 		default
 		{
-			_unit addUniform "U_B_CombatUniform_mcam";
+			_unit addUniform "U_I_C_Soldier_Bandit_1_F";
 
 			if (_unit == leader _group) then
 			{
 				_unit addWeapon "arifle_TRG21_F";
-				_unit setRank "SERGEANT";
+				_unit setRank "CAPTAIN";
 			}
 			else
 			{

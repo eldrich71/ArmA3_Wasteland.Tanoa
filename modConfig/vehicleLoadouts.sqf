@@ -34,8 +34,19 @@ switch (true) do
 			default          { _pylons = ["PylonWeapon_2000Rnd_65x39_belt","PylonRack_12Rnd_missiles"] };
 		};
 	};
-
-	// AH-99 Blackfoot
+	//armed caeser
+	case (_class isKindOf "Plane_Civil_01_racing_F"):
+	{	
+	  _mags =
+	  [
+		  ["5000Rnd_762x51_Belt", [-1]]
+	  ];
+	  _weapons =
+	  [
+		  ["M134_minigun", [-1]]
+      ];
+  };
+    // AH-99 Blackfoot
 	case (_class isKindOf "Heli_Attack_01_dynamicLoadout_base_F"):
 	{
 		_pylons = ["PylonMissile_1Rnd_AAA_missiles","PylonMissile_1Rnd_LG_scalpel","PylonRack_12Rnd_missiles","PylonRack_12Rnd_missiles","PylonMissile_1Rnd_LG_scalpel","PylonMissile_1Rnd_AAA_missiles"];

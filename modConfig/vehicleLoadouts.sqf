@@ -35,7 +35,7 @@ switch (true) do
 		};
 	};
 	//armed caeser
-	case (_class isKindOf "Plane_Civil_01_racing_F"):
+	case (_class isKindOf "C_Plane_Civil_01_racing_F"):
 	{	
 	  _mags =
 	  [

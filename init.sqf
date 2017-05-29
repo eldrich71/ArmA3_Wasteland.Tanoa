@@ -98,6 +98,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\proving_ground\init.sqf";
 	[] execVM "addons\JumpMF\init.sqf";
 	[] execVM "addons\outlw_magrepack\MagRepack_init.sqf";
+	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\scripts\intro.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";

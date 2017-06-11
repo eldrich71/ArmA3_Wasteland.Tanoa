@@ -35,13 +35,12 @@ _player linkItem "NVGoggles";
 
 _player addBackpack "B_AssaultPack_rgr";
 
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addWeapon "hgun_ACPC2_F";
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addMagazine "9Rnd_45ACP_Mag";
+_player addMagazine "30Rnd_9x21_Mag";
+_player addWeapon "SMG_02_ACO_F";
+_player addMagazine "30Rnd_9x21_Mag";
+_player addMagazine "30Rnd_9x21_Mag";
 _player addItem "FirstAidKit";
-_player selectWeapon "hgun_ACPC2_F";
+_player selectWeapon "SMG_02_ACO_F";
 
 switch (true) do
 {

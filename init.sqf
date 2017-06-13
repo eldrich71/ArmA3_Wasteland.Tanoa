@@ -100,6 +100,8 @@ if (hasInterface || isServer) then
 	[] execVM "addons\outlw_magrepack\MagRepack_init.sqf";
 	[] execVM "addons\laptop\init.sqf";                   // Addon for hack laptop mission	
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
+	[] execVM "addons\HvT\HvT.sqf";                        // High Value Target
+	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\scripts\intro.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";

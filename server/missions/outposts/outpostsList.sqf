@@ -5,6 +5,11 @@
 //	@file Author: AgentRev
 
 [
-	"Outpost1",
-	"Outpost2"
+	//"Outpost1",
+	//"Outpost2",
+	"outpostSoulRampart",
+	"outpostSoulRapid",
+	"outpostSoulRecon",
+	"outpostSoulResistance",
+	"outpostSoulSupplies"
 ]

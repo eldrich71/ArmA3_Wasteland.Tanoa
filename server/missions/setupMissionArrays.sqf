@@ -27,6 +27,7 @@ SideMissions =
 	["mission_HostileHelicopter", 0.5],
 	["mission_HostileJet", 0.5],
 	["mission_GeoCache", 1],
+	["mission_Smugglers", 1],
 	["mission_MiniConvoy", 1],
 	["mission_SunkenSupplies", 1],
 	//["mission_TownInvasion", 2],

@@ -15,7 +15,7 @@ MainMissions =
 	["mission_HostileHeliFormation", 0.5],
 	["mission_HostileJetFormation", 0.5],
 	["mission_Hackers", 2],
-	["mission_APC", 1],
+	//["mission_APC", 1],
 	["mission_MBT", 1],
 	//["mission_LightArmVeh", 1],
 	["mission_ArmedHeli", 1]
@@ -29,7 +29,8 @@ SideMissions =
 	["mission_GeoCache", 1],
 	["mission_Smugglers", 1],
 	["mission_MiniConvoy", 1],
-	["mission_SunkenSupplies", 1],
+	//["mission_SunkenSupplies", 1],
+	["mission_drugsRunners", 1],
 	//["mission_TownInvasion", 2],
 	["mission_Outpost", 1],
 	["mission_Truck", 1]

@@ -201,7 +201,7 @@ switch (true) do
 	};
 
 	// MQ-12 Falcon UAV (non-dynamicLoadout)
-	case (_class isKindOf "B_T_UAV_03_F"):
+	/*case (_class isKindOf "B_T_UAV_03_F"):
 	{
 		_mags =
 		[
@@ -221,5 +221,5 @@ switch (true) do
 			["missiles_ASRAAM", [0]],
 			["Laserdesignator_mounted", [0]]
 		];
-	};
+	};*/
 };

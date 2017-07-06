@@ -13,6 +13,7 @@ MainMissions =
 	["mission_Coastal_Convoy", 1],
 	["mission_Convoy", 1],
 	["mission_HostileHeliFormation", 0.5],
+	["mission_Sniper", 1.5],
 	["mission_HostileJetFormation", 0.5],
 	["mission_Hackers", 2],
 	//["mission_APC", 1],
@@ -25,6 +26,7 @@ MainMissions =
 SideMissions =
 [
 	["mission_HostileHelicopter", 0.5],
+	["mission_Roadblock", 1.5],
 	["mission_HostileJet", 0.5],
 	["mission_GeoCache", 1],
 	["mission_Smugglers", 1],
@@ -79,3 +81,22 @@ MoneyMissions = [MoneyMissions, [["A3W_underWaterMissions", ["mission_SunkenTrea
 { _x set [2, false] } forEach SideMissions;
 { _x set [2, false] } forEach MoneyMissions;
 { _x set [2, false] } forEach TownMissions;
+
+RoadblockMissionMarkers =[];
+SniperMissionMarkers =[];
+
+{
+	switch (true) do
+	{
+
+		case (["RoadBlock_", _x] call fn_startsWith):
+		{
+			RoadblockMissionMarkers pushBack [_x, false];
+		};
+		case (["Sniper_", _x] call fn_startsWith):
+		{
+			SniperMissionMarkers pushBack [_x, false];
+		};
+
+	};
+} forEach allMapMarkers;

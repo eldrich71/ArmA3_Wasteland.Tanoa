@@ -8,15 +8,15 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=876;
+		nextID=895;
 	};
 	class MarkerIDProvider
 	{
-		nextID=312;
+		nextID=314;
 	};
 	class LayerIndexProvider
 	{
-		nextID=2;
+		nextID=4;
 	};
 	class Camera
 	{
@@ -39,6 +39,7 @@ addons[]=
 	"A3_Structures_F_System",
 	"A3_Structures_F_Exp_Industrial_Port",
 	"A3_Structures_F_EPC_Civ_Accessories",
+	"A3_Structures_F_Argo",
 	"A3_Structures_F_Naval_Piers",
 	"A3_Structures_F_Exp_Naval_Piers",
 	"A3_Structures_F_Civ_Lamps",
@@ -50,7 +51,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -102,6 +103,13 @@ class AddonsMetaData
 		};
 		class Item7
 		{
+			className="A3_Structures_F_Argo";
+			name="Arma 3 Malden - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
@@ -118,7 +126,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Tanoa v1.3c"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+		briefingName="A3Wasteland Tanoa v1.3c";
 		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
@@ -136,7 +144,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=691;
+		items=710;
 		class Item0
 		{
 			dataType="Group";
@@ -3119,14 +3127,14 @@ class Mission
 					};
 					id=193;
 					type="C_man_1_1_F";
-					atlOffset=0.16822767;
+					atlOffset=0.1682272;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=192;
-			atlOffset=0.16822767;
+			atlOffset=0.1682272;
 		};
 		class Item44
 		{
@@ -12379,7 +12387,7 @@ class Mission
 			name="LandConvoy_2_1";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=224.24196;
+			angle=224.24194;
 			id=840;
 			atlOffset=-243.9091;
 		};
@@ -12390,7 +12398,7 @@ class Mission
 			name="LandConvoy_2_2";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=214.23395;
+			angle=214.23393;
 			id=841;
 			atlOffset=-8428.7207;
 		};
@@ -12401,7 +12409,7 @@ class Mission
 			name="LandConvoy_2_3";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=216.73578;
+			angle=216.73576;
 			id=842;
 		};
 		class Item684
@@ -12411,7 +12419,7 @@ class Mission
 			name="LandConvoy_3_1";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=146.91396;
+			angle=146.91394;
 			id=843;
 		};
 		class Item685
@@ -12431,7 +12439,7 @@ class Mission
 			name="LandConvoy_3_3";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=154.67569;
+			angle=154.67567;
 			id=845;
 		};
 		class Item687
@@ -12612,7 +12620,7 @@ class Mission
 					name="Parking1_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=130.08012;
+					angle=130.08011;
 					id=856;
 				};
 				class Item8
@@ -12651,7 +12659,7 @@ class Mission
 					name="Parking3_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=257.28769;
+					angle=257.28766;
 					id=860;
 				};
 				class Item12
@@ -12688,7 +12696,7 @@ class Mission
 					name="Parking4_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=291.4256;
+					angle=291.42557;
 					id=863;
 				};
 				class Item15
@@ -12708,7 +12716,7 @@ class Mission
 					name="Parking5_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=1.7231839;
+					angle=1.7231838;
 					id=865;
 				};
 				class Item17
@@ -12748,7 +12756,7 @@ class Mission
 					name="Parking7_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=285.67368;
+					angle=285.67365;
 					id=869;
 					atlOffset=-2.21;
 				};
@@ -12760,6 +12768,7 @@ class Mission
 					type="Empty";
 					colorName="ColorBlack";
 					id=870;
+					atlOffset=0.1278944;
 				};
 				class Item22
 				{
@@ -12821,6 +12830,201 @@ class Mission
 			name="CustomLayer";
 			id=875;
 			atlOffset=60.779999;
+		};
+		class Item691
+		{
+			dataType="Marker";
+			position[]={2692.9951,0,2557.4141};
+			name="Sniper_1";
+			type="Empty";
+			colorName="ColorYellow";
+			id=876;
+			atlOffset=-205.51097;
+		};
+		class Item692
+		{
+			dataType="Marker";
+			position[]={6832.9639,45.119141,4316.0103};
+			name="Sniper_2";
+			type="Empty";
+			colorName="ColorYellow";
+			id=877;
+			atlOffset=-10.931469;
+		};
+		class Item693
+		{
+			dataType="Marker";
+			position[]={11022.442,182.53336,4201.1299};
+			name="Sniper_3";
+			type="Empty";
+			colorName="ColorYellow";
+			id=878;
+		};
+		class Item694
+		{
+			dataType="Marker";
+			position[]={11022.984,214.36391,8469.9629};
+			name="Sniper_4";
+			type="Empty";
+			colorName="ColorYellow";
+			id=879;
+		};
+		class Item695
+		{
+			dataType="Marker";
+			position[]={10026.903,409.87,11762.181};
+			name="Sniper_5";
+			type="Empty";
+			colorName="ColorYellow";
+			id=880;
+		};
+		class Item696
+		{
+			dataType="Marker";
+			position[]={2706.1992,168.55576,12340.745};
+			name="Sniper_6";
+			type="Empty";
+			colorName="ColorYellow";
+			id=881;
+		};
+		class Item697
+		{
+			dataType="Marker";
+			position[]={2434.9316,63.560547,7210.3008};
+			name="Sniper_7";
+			type="Empty";
+			colorName="ColorYellow";
+			id=882;
+			atlOffset=-7.3480682;
+		};
+		class Item698
+		{
+			dataType="Marker";
+			position[]={12961.234,89.224609,14095.501};
+			name="Sniper_8";
+			type="Empty";
+			colorName="ColorYellow";
+			id=883;
+			atlOffset=-11.802559;
+		};
+		class Item699
+		{
+			dataType="Marker";
+			position[]={5230.7998,0,3226.324};
+			name="RoadBlock_1";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=9;
+			id=884;
+			atlOffset=-12.337008;
+		};
+		class Item700
+		{
+			dataType="Marker";
+			position[]={2570.6421,0,6515.4619};
+			name="RoadBlock_2";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=45;
+			id=885;
+			atlOffset=-22.562925;
+		};
+		class Item701
+		{
+			dataType="Marker";
+			position[]={2414.053,0,11684.72};
+			name="RoadBlock_3";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=149.99998;
+			id=886;
+			atlOffset=-40.151249;
+		};
+		class Item702
+		{
+			dataType="Marker";
+			position[]={3533.6506,0,13718.78};
+			name="RoadBlock_4";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=99.999992;
+			id=887;
+			atlOffset=-28.508667;
+		};
+		class Item703
+		{
+			dataType="Marker";
+			position[]={5430.2251,0,11413.677};
+			name="RoadBlock_5";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=99.999992;
+			id=888;
+			atlOffset=-4.1799998;
+		};
+		class Item704
+		{
+			dataType="Marker";
+			position[]={8492.0977,171.00154,12373.74};
+			name="RoadBlock_6";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=9;
+			id=889;
+		};
+		class Item705
+		{
+			dataType="Marker";
+			position[]={11363.273,0,13113.903};
+			name="RoadBlock_7";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=90;
+			id=890;
+			atlOffset=-14.180486;
+		};
+		class Item706
+		{
+			dataType="Marker";
+			position[]={13119.25,0,12204.96};
+			name="RoadBlock_8";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=135;
+			id=891;
+			atlOffset=-6.6931639;
+		};
+		class Item707
+		{
+			dataType="Marker";
+			position[]={12270.537,0,14020.317};
+			name="RoadBlock_9";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=180;
+			id=892;
+			atlOffset=-11.688538;
+		};
+		class Item708
+		{
+			dataType="Marker";
+			position[]={12772.142,0,4180.6191};
+			name="RoadBlock_10";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=180;
+			id=893;
+			atlOffset=-22.938828;
+		};
+		class Item709
+		{
+			dataType="Marker";
+			position[]={9840,5.5471067,6533.8286};
+			name="RoadBlock_11";
+			type="Empty";
+			colorName="ColorCIV";
+			angle=90;
+			id=894;
 		};
 	};
 };

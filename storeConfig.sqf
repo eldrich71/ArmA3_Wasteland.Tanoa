@@ -20,7 +20,7 @@ pistolArray = compileFinal str
 	// Handguns
 	["PM Pistol", "hgun_Pistol_01_F", 25],
 	["P07 Pistol", "hgun_P07_F", 50],
-	["P07 Pistol (Khaki)", "hgun_P07_khk_F", 50],
+	["P07 Pistol (Khaki)", "hgun_P07_khk_F", 50, "noDLC"],
 	["Rook-40 Pistol", "hgun_Rook40_F", 50],
 	["ACP-C2 Pistol", "hgun_ACPC2_F", 75],
 	["Zubr Revolver", "hgun_Pistol_heavy_02_F", 75],
@@ -79,9 +79,9 @@ rifleArray = compileFinal str
 	["CAR-95 GL Rifle", "arifle_CTAR_GL_blk_F", 250],
 	["CAR-95 GL Rifle (Hex)", "arifle_CTAR_GL_hex_F", 250],
 	["CAR-95 GL Rifle (G Hex)", "arifle_CTAR_GL_ghex_F", 250],
-	["Type 115 Rifle", "arifle_ARX_blk_F", 300],
-	["Type 115 Rifle (Hex)", "arifle_ARX_hex_F", 300],
-	["Type 115 Rifle (G Hex)", "arifle_ARX_ghex_F", 300],
+	["Type 115 Stealth Rifle", "arifle_ARX_blk_F", 300],
+	["Type 115 Stealth Rifle (Hex)", "arifle_ARX_hex_F", 300],
+	["Type 115 Stealth Rifle (G Hex)", "arifle_ARX_ghex_F", 300],
 
 	["AKS-74U Carbine", "arifle_AKS_F", 150],
 	["AKM Rifle", "arifle_AKM_F", 200],
@@ -96,9 +96,9 @@ rifleArray = compileFinal str
 	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
 
 	// DLC
-	["CMR-76 Rifle", "srifle_DMR_07_blk_F", 400],
-	["CMR-76 Rifle (Hex)", "srifle_DMR_07_hex_F", 400],
-	["CMR-76 Rifle (G Hex)", "srifle_DMR_07_ghex_F", 400],
+	["CMR-76 Stealth Rifle", "srifle_DMR_07_blk_F", 400],
+	["CMR-76 Stealth Rifle (Hex)", "srifle_DMR_07_hex_F", 400],
+	["CMR-76 Stealth Rifle (G Hex)", "srifle_DMR_07_ghex_F", 400],
 	["SPAR-17 Rifle", "arifle_SPAR_03_blk_F", 450],
 	["SPAR-17 Rifle (Khaki)", "arifle_SPAR_03_khk_F", 450],
 	["SPAR-17 Rifle (Sand)", "arifle_SPAR_03_snd_F", 450],
@@ -120,10 +120,10 @@ rifleArray = compileFinal str
 	// Sniper Rifles
 	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 1000],
 	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 1200],
-	["M320 LRR Sniper (Tropic)", "srifle_LRR_tna_LRPS_F", 1200],
+	["M320 LRR Sniper (Tropic)", "srifle_LRR_tna_LRPS_F", 1200, "noDLC"],
 	["GM6 Lynx Sniper", "srifle_GM6_LRPS_F", 1250],
 	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_LRPS_F", 1500],
-	["GM6 Lynx Sniper (G Hex)", "srifle_GM6_ghex_LRPS_F", 1500],
+	["GM6 Lynx Sniper (G Hex)", "srifle_GM6_ghex_LRPS_F", 1500, "noDLC"],
 
 	["ASP-1 Kir Rifle", "srifle_DMR_04_F", 2000],
 	["ASP-1 Kir Rifle (Tan)", "srifle_DMR_04_tan_F", 2000]
@@ -325,22 +325,23 @@ accessoriesArray = compileFinal str
 	["Suppressor 9mm", "muzzle_snds_L", 50, "item"],
 	["Suppressor .45 ACP", "muzzle_snds_acp", 75, "item"],
 	["Suppressor 5.56mm", "muzzle_snds_M", 100, "item"],
-	["Suppressor 5.56mm (Khaki)", "muzzle_snds_m_khk_F", 100, "item"],
-	["Suppressor 5.56mm (Sand)", "muzzle_snds_m_snd_F", 100, "item"],
+	["Suppressor 5.56mm (Khaki)", "muzzle_snds_m_khk_F", 100, "item", "noDLC"],
+	["Suppressor 5.56mm (Sand)", "muzzle_snds_m_snd_F", 100, "item", "noDLC"],
 	["Suppressor 5.8mm", "muzzle_snds_58_blk_F", 100, "item"],
-	["Suppressor 5.8mm (G Hex)", "muzzle_snds_58_wdm_F", 100, "item"],
+	["Suppressor 5.8mm (Hex)", "muzzle_snds_58_hex_F", 100, "item"],
+	["Suppressor 5.8mm (G Hex)", "muzzle_snds_58_ghex_F", 100, "item"],
 	["Suppressor 6.5mm", "muzzle_snds_H", 100, "item"],
-	["Suppressor 6.5mm (Khaki)", "muzzle_snds_H_khk_F", 100, "item"],
-	["Suppressor 6.5mm (Sand)", "muzzle_snds_H_snd_F", 100, "item"],
+	["Suppressor 6.5mm (Khaki)", "muzzle_snds_H_khk_F", 100, "item", "noDLC"],
+	["Suppressor 6.5mm (Sand)", "muzzle_snds_H_snd_F", 100, "item", "noDLC"],
 	["Suppressor 6.5mm LMG", "muzzle_snds_H_MG", 125, "item"],
-	["Suppressor 6.5mm LMG (Black)", "muzzle_snds_H_MG_blk_F", 125, "item"],
-	["Suppressor 6.5mm LMG (Khaki)", "muzzle_snds_H_MG_khk_F", 125, "item"],
-	["Suppressor Type 115", "muzzle_snds_65_TI_blk_F", 125, "item"],
-	["Suppressor Type 115 (Hex)", "muzzle_snds_65_TI_hex_F", 125, "item"],
-	["Suppressor Type 115 (G Hex)", "muzzle_snds_65_TI_ghex_F", 125, "item"],
+	["Suppressor 6.5mm LMG (Black)", "muzzle_snds_H_MG_blk_F", 125, "item", "noDLC"],
+	["Suppressor 6.5mm LMG (Khaki)", "muzzle_snds_H_MG_khk_F", 125, "item", "noDLC"],
+	["Suppressor 6.5mm Stealth", "muzzle_snds_65_TI_blk_F", 125, "item"],
+	["Suppressor 6.5mm Stealth (Hex)", "muzzle_snds_65_TI_hex_F", 125, "item"],
+	["Suppressor 6.5mm Stealth (G Hex)", "muzzle_snds_65_TI_ghex_F", 125, "item"],
 	["Suppressor 7.62mm", "muzzle_snds_B", 125, "item"],
-	["Suppressor 7.62mm (Khaki)", "muzzle_snds_B_khk_F", 125, "item"],
-	["Suppressor 7.62mm (Sand)", "muzzle_snds_B_snd_F", 125, "item"],
+	["Suppressor 7.62mm (Khaki)", "muzzle_snds_B_khk_F", 125, "item", "noDLC"],
+	["Suppressor 7.62mm (Sand)", "muzzle_snds_B_snd_F", 125, "item", "noDLC"],
 	["Suppressor .338", "muzzle_snds_338_black", 150, "item"],
 	["Suppressor .338 (Green)", "muzzle_snds_338_green", 150, "item"],
 	["Suppressor .338 (Sand)", "muzzle_snds_338_sand", 175, "item"],
@@ -354,7 +355,7 @@ accessoriesArray = compileFinal str
 	["Bipod (Olive)", "bipod_03_F_oli", 100, "item", "noDLC"],
 	["Bipod (Sand)", "bipod_01_F_snd", 100, "item", "noDLC"],
 	["Bipod (Tan)", "bipod_02_F_tan", 100, "item", "noDLC"],
-	["Bipod (Khaki)", "bipod_01_F_khk", 100, "item"],
+	["Bipod (Khaki)", "bipod_01_F_khk", 100, "item", "noDLC"],
 	["Flashlight", "acc_flashlight", 25, "item"],
 	["Pistol Flashlight" ,"acc_flashlight_pistol", 25, "item"],
 	["IR Laser Pointer", "acc_pointer_IR", 25, "item"],
@@ -371,14 +372,14 @@ accessoriesArray = compileFinal str
 	["ERCO (Khaki)", "optic_ERCO_khk_F", 100, "item"],
 	["ERCO (Sand)", "optic_ERCO_snd_F", 100, "item"],
 	["ARCO", "optic_Arco", 125, "item"],
-	["ARCO (Black)", "optic_Arco_blk_F", 125, "item"],
-	["ARCO (G Hex)", "optic_Arco_ghex_F", 125, "item"],
+	["ARCO (Black)", "optic_Arco_blk_F", 125, "item", "noDLC"],
+	["ARCO (G Hex)", "optic_Arco_ghex_F", 125, "item", "noDLC"],
 	["RCO", "optic_Hamr", 150, "item"],
-	["RCO (Khaki)", "optic_Hamr_khk_F", 150, "item"],
+	["RCO (Khaki)", "optic_Hamr_khk_F", 150, "item", "noDLC"],
 	["MOS", "optic_SOS", 150, "item"],
-	["MOS (Khaki)", "optic_SOS_khk_F", 150, "item"],
+	["MOS (Khaki)", "optic_SOS_khk_F", 150, "item", "noDLC"],
 	["DMS", "optic_DMS", 175, "item"],
-	["DMS (G Hex)", "optic_DMS_ghex_F", 175, "item"],
+	["DMS (G Hex)", "optic_DMS_ghex_F", 175, "item", "noDLC"],
 	["Kahlia (Sightless)", "optic_KHS_old", 200, "item"],
 	["Kahlia", "optic_KHS_blk", 225, "item"],
 	["Kahlia (Hex)", "optic_KHS_hex", 225, "item"],
@@ -387,8 +388,8 @@ accessoriesArray = compileFinal str
 	["AMS (Khaki)", "optic_AMS_khk", 250, "item"],
 	["AMS (Sand)", "optic_AMS_snd", 250, "item"],
 	["LRPS", "optic_LRPS", 300, "item"],
-	["LRPS (G Hex)", "optic_LRPS_ghex_F", 300, "item"],
-	["LRPS (Tropic)", "optic_LRPS_tna_F", 300, "item"],
+	["LRPS (G Hex)", "optic_LRPS_ghex_F", 300, "item", "noDLC"],
+	["LRPS (Tropic)", "optic_LRPS_tna_F", 300, "item", "noDLC"],
 	["NVS", "optic_NVS", 500, "item"],
 	["TWS", "optic_tws", 5000, "item", "HIDDEN"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
 	["TWS MG", "optic_tws_mg", 6000, "item", "HIDDEN"],
@@ -745,9 +746,9 @@ genItemArray = compileFinal str
 	["Laser Designator (Sand)", "Laserdesignator", 250, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
 	["Laser Designator (Hex)", "Laserdesignator_02", 300, "binoc", "noDLC"],
 	["Laser Designator (Olive)", "Laserdesignator_03", 250, "binoc", "noDLC"],
-	["IR Grenade", "B_IR_Grenade", 50, "mag", "WEST"],
-	["IR Grenade", "O_IR_Grenade", 50, "mag", "EAST"],
-	["IR Grenade", "I_IR_Grenade", 50, "mag", "GUER"],
+	["IR Designator Grenade", "B_IR_Grenade", 50, "mag", "WEST"],
+	["IR Designator Grenade", "O_IR_Grenade", 50, "mag", "EAST"],
+	["IR Designator Grenade", "I_IR_Grenade", 50, "mag", "GUER"],
 	["Chemlight (Blue)", "Chemlight_blue", 25, "mag"],
 	["Chemlight (Green)", "Chemlight_green", 25, "mag"],
 	["Chemlight (Yellow)", "Chemlight_yellow", 25, "mag"],
@@ -803,6 +804,8 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
+	["Camo Net", "CamoNet_INDP_open_F", 200, "object", "HIDDEN"], // unlisted, only for object saving
+
 	["Pier Ladder", "Land_PierLadder_F", 250, "object"],
 	["Ammo Cache", "Box_FIA_Support_F", 250, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
@@ -869,7 +872,7 @@ landArray = compileFinal str
 
 	["Offroad", "C_Offroad_01_F", 1100, "vehicle", "SKIPSAVE"],
 	["Offroad Camo", "B_G_Offroad_01_F", 1250, "vehicle", "SKIPSAVE"],
-	["Offroad Police", "B_GEN_Offroad_01_gen_F", 1250, "vehicle", "SKIPSAVE"],
+	["Offroad Police", "B_GEN_Offroad_01_gen_F", 1250, "vehicle", "SKIPSAVE", "noDLC"],
 	["Offroad Repair", "C_Offroad_01_repair_F", 1500, "vehicle", "SKIPSAVE"],
 	["Offroad HMG", "B_G_Offroad_01_armed_F", 2500, "vehicle", "SKIPSAVE"],
 
@@ -881,6 +884,8 @@ landArray = compileFinal str
 
 	["Van Cargo", "C_Van_02_vehicle_F", 1000, "vehicle", "SKIPSAVE"],
 	["Van Transport", "C_Van_02_transport_F", 1000, "vehicle", "SKIPSAVE"],
+	["Van Police Cargo", "B_GEN_Van_02_vehicle_F", 1250, "vehicle", "SKIPSAVE"],
+	["Van Police Transport", "B_GEN_Van_02_transport_F", 1250, "vehicle", "SKIPSAVE"],
 	["Van Ambulance", "C_Van_02_medevac_F", 1500, "vehicle", "SKIPSAVE"],
 	["Van Repair", "C_Van_02_service_F", 2000, "vehicle", "SKIPSAVE"],
 
@@ -1018,13 +1023,17 @@ planesArray = compileFinal str
 	["K40 Ababil-3 Bomber UAV", "O_UAV_02_dynamicLoadout_F", 15000, "vehicle", "variant_greyhawkBomber"],
 	["K40 Ababil-3 Bomber UAV", "I_UAV_02_dynamicLoadout_F", 15000, "vehicle", "variant_greyhawkBomber"],
 
-	["MQ4A Greyhawk Cluster UAV", "B_UAV_02_dynamicLoadout_F", 15000, "vehicle", "variant_greyhawkCluster"],
-	["K40 Ababil-3 Cluster UAV", "O_UAV_02_dynamicLoadout_F", 15000, "vehicle", "variant_greyhawkCluster"],
-	["K40 Ababil-3 Cluster UAV", "I_UAV_02_dynamicLoadout_F", 15000, "vehicle", "variant_greyhawkCluster"],
+	["MQ4A Greyhawk Cluster UAV", "B_UAV_02_dynamicLoadout_F", 20000, "vehicle", "variant_greyhawkCluster"],
+	["K40 Ababil-3 Cluster UAV", "O_UAV_02_dynamicLoadout_F", 20000, "vehicle", "variant_greyhawkCluster"],
+	["K40 Ababil-3 Cluster UAV", "I_UAV_02_dynamicLoadout_F", 20000, "vehicle", "variant_greyhawkCluster"],
+
+	["MQ4A Greyhawk DAGR UAV", "B_UAV_02_dynamicLoadout_F", 60000, "vehicle", "variant_greyhawkDAGR"],
+	["K40 Ababil-3 DAGR UAV", "O_UAV_02_dynamicLoadout_F", 60000, "vehicle", "variant_greyhawkDAGR"],
+	["K40 Ababil-3 DAGR UAV", "I_UAV_02_dynamicLoadout_F", 60000, "vehicle", "variant_greyhawkDAGR"],
 
 	["UCAV Sentinel Missile", "B_UAV_05_F", 40000, "vehicle", "variant_sentinelMissile"],
 	["UCAV Sentinel Bomber", "B_UAV_05_F", 20000, "vehicle", "variant_sentinelBomber"],
-	["UCAV Sentinel Cluster", "B_UAV_05_F", 20000, "vehicle", "variant_sentinelCluster"]
+	["UCAV Sentinel Cluster", "B_UAV_05_F", 25000, "vehicle", "variant_sentinelCluster"]
 ];
 
 boatsArray = compileFinal str
@@ -1042,14 +1051,14 @@ boatsArray = compileFinal str
 	["Motorboat Rescue", "C_Boat_Civil_01_rescue_F", 900, "boat", "SKIPSAVE"],
 	["Motorboat Police", "C_Boat_Civil_01_police_F", 1100, "boat", "SKIPSAVE"],
 
-	["RHIB", "I_C_Boat_Transport_02_F", 1250, "boat", "SKIPSAVE"],
+	["RHIB", "I_C_Boat_Transport_02_F", 1500, "boat", "SKIPSAVE"],
 
 	["Speedboat HMG (CSAT)", "O_Boat_Armed_01_hmg_F", 4000, "boat", "SKIPSAVE"],
 	["Speedboat Minigun (NATO)", "B_Boat_Armed_01_minigun_F", 4000, "boat", "SKIPSAVE"],
 	["Speedboat Minigun (AAF)", "I_Boat_Armed_01_minigun_F", 4000, "boat", "SKIPSAVE"],
-	["SDV Submarine (NATO)", "B_SDV_01_F", 1000, "submarine", "SKIPSAVE"],
-	["SDV Submarine (CSAT)", "O_SDV_01_F", 1000, "submarine", "SKIPSAVE"],
-	["SDV Submarine (AAF)", "I_SDV_01_F", 1000, "submarine", "SKIPSAVE"]
+	["SDV Submarine (NATO)", "B_SDV_01_F", 1500, "submarine", "SKIPSAVE"],
+	["SDV Submarine (CSAT)", "O_SDV_01_F", 1500, "submarine", "SKIPSAVE"],
+	["SDV Submarine (AAF)", "I_SDV_01_F", 1500, "submarine", "SKIPSAVE"]
 ];
 
 allVehStoreVehicles = compileFinal str (call landArray + call armoredArray + call tanksArray + call helicoptersArray + call planesArray + call boatsArray);
@@ -1290,9 +1299,12 @@ colorsArray = compileFinal str
 			["Tan (Strider)", ["Blufor"]]
 		]
 	],
-	[ // Gorgon NATO color
+	[ // Gorgon paintjobs
 		"APC_Wheeled_03_base_F",
 		[
+			["Guerilla 1 (Gorgon)", ["Guerilla_01"]],
+			["Guerilla 2 (Gorgon)", ["Guerilla_02"]],
+			["Guerilla 3 (Gorgon)", ["Guerilla_03"]],
 			["Tan (Gorgon)", [
 				[0, _gorgonDir + "apc_wheeled_03_ext_co.paa"],
 				[1, _gorgonDir + "apc_wheeled_03_ext2_co.paa"],
